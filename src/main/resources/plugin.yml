@@ -1,0 +1,6 @@
+name: Nimbus
+version: '${project.version}'
+main: ludique.nimbus.Nimbus
+api-version: 1.18
+load: STARTUP
+description: Core Plugin for the Nimbus Minecraft Java Edition PaperMC server
