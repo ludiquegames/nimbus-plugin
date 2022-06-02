@@ -1,0 +1,31 @@
+##########################################################################################
+#                                                                                        #
+#                              Nimbus Plugin Configuration                               #
+#                                                                                        #
+##########################################################################################
+
+# This is the config file for Nimbus Plugin. You need to run the following dependencies to
+# be able to use this plugin:
+#  - Nimbus API for HTTP requests (https://github.com/ludiquegames/nimbus-api)
+#  - Nimbus Web for player management (https://github.com/ludiquegames/nimbus-web)
+#  - A PostGreSQL server, which the API will use to store data.
+
+
+##########################################################################################
+#                               Nimbus API Configuration                                 #
+##########################################################################################
+
+# The public URL of your API — will serve as a base for all HTTP requests
+api_public_url: ""
+
+# The connection / read timeout of requests to your API, in milliseconds
+api_connect_timeout: 5000
+api_read_timeout: 5000
+
+
+##########################################################################################
+#                               Nimbus Web Configuration                                 #
+##########################################################################################
+
+# The public URL of your Web application — will serve as a base when generating links
+web_public_url: ""
